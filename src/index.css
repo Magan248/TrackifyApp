@@ -28,18 +28,18 @@ body {
 
   /* Contact directives */
   .contact-container {
-    @apply mx-auto grid max-w-5xl grid-cols-1 gap-10 rounded-2xl bg-gradient-to-r from-sky-900 to-blue-900 p-8 shadow-xl lg:grid-cols-2 lg:p-12;
+    @apply mx-auto grid max-w-5xl grid-cols-1 gap-10 rounded-sm bg-gradient-to-r from-sky-900 to-blue-900 p-8 shadow-xl lg:grid-cols-2 lg:p-12;
   }
   .contact-button {
     @apply w-full cursor-pointer rounded-lg bg-gradient-to-r from-indigo-500 to-blue-600 py-3 text-center font-semibold text-white shadow-md transition duration-300 hover:from-blue-600 hover:to-indigo-500;
   }
   .contact-input {
-    @apply w-full rounded-lg border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-indigo-500 focus:outline-none;
+    @apply w-full rounded-lg border border-gray-300 bg-sky-950 px-4 py-1 font-bold text-white focus:ring-2 focus:ring-indigo-500 focus:outline-none;
   }
 
   /* app directives */
   .app-main {
-    @apply mx-auto flex min-h-[calc(100vh-11rem)] max-w-7xl flex-col justify-center gap-8 bg-gradient-to-r from-emerald-700 to-blue-800 p-8 md:flex-row md:py-8;
+    @apply mx-auto flex min-h-[calc(100vh-11rem)] max-w-7xl flex-col justify-center gap-8 bg-gradient-to-r from-emerald-700 to-blue-800 p-6 md:flex-row md:py-8;
   }
 
   /* sidebar directives */

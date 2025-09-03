@@ -7,7 +7,7 @@ export default function Input({ label, id, name, value, error, onChange }) {
         {label}
       </label>
       <input
-        className='h-7 rounded-md border-2 border-gray-500'
+        className='contact-input'
         id={id}
         name={name}
         value={value || ''}

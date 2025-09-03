@@ -16,7 +16,7 @@ export default function SelectInput({
         {label}
       </label>
       <select
-        className='h-7 rounded-md border-2 border-gray-500'
+        className='contact-input'
         id={id}
         name={name}
         value={value || ''}
