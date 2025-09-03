@@ -39,7 +39,7 @@ body {
 
   /* app directives */
   .app-main {
-    @apply ms:p-6 mx-auto flex min-h-[calc(100vh-11rem)] max-w-7xl flex-col justify-center gap-8 bg-gradient-to-r from-emerald-700 to-blue-800 p-2 md:flex-row md:py-8;
+    @apply mx-auto flex min-h-[calc(100vh-11rem)] max-w-7xl flex-col justify-center gap-8 bg-gradient-to-r from-emerald-700 to-blue-800 p-2 sm:p-6 md:flex-row md:py-8;
   }
 
   /* sidebar directives */
